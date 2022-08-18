@@ -1,0 +1,106 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ######## Section - One ########*/
+
+.section-one {
+    height: 590px;
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 230px;
+}
+
+/* ######## Header part ######## */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 24px;
+    color: #f9f8fa;
+}
+
+.header-links>ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* ######## Hero Part ######## */
+
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.placeholder {
+    width: 800px;
+    height: 250px;
+    background-color: #6D747D;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-main {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9f8fa;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sign-up-button{
+    background-color: #3B82f6;
+    font-weight: 500;
+    color: #f9f8fa;
+    font-size: 18px;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ######## Section - One END ######## */
+
+/* ######## Section - Two ######## */
