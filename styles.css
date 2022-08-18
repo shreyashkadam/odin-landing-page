@@ -12,7 +12,6 @@ body {
 .section-one {
     height: 590px;
     background-color: #1f2937;
-    margin: 0;
     display: flex;
     flex-direction: column;
     padding: 0 230px;
@@ -48,6 +47,7 @@ li a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 500;
 }
 
 /* ######## Hero Part ######## */
@@ -76,7 +76,7 @@ li a {
     flex-direction: column;
     width: 650px;
     align-items: flex-start;
-    gap: 10px;
+    gap: 15px;
 }
 
 .hero-main {
@@ -88,6 +88,7 @@ li a {
 .hero-secondary {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .sign-up-button{
@@ -106,3 +107,43 @@ button {
 /* ######## Section - One END ######## */
 
 /* ######## Section - Two ######## */
+.section-two{
+    height: 590px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 230px;
+    align-items: center;
+}
+
+.rand-info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.box{
+    width: 170px;
+    height: 170px;
+    border: 4.5px solid #3B82f6;
+    border-radius: 10%;
+}
+
+.card-info{
+    font-size: 18px;
+    color: #6D747D;
+    font-weight: 500;
+    width: 170px;
+    text-align: center;
+}
+
+.all-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-info{
+    margin-top: 10px;
+}
