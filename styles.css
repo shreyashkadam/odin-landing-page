@@ -108,7 +108,7 @@ button {
 
 /* ######## Section - Two ######## */
 .section-two{
-    height: 590px;
+    height: 500px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -147,3 +147,38 @@ button {
 .card-info{
     margin-top: 10px;
 }
+
+/* ######## Section - Two END ######## */
+
+/* ######## Section - Three ######## */
+
+.section-three {
+    height: 500px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 0 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 820px;;
+}
+
+.quote-text{
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author{
+    font-weight: bold;
+    font-size: 25px;
+    align-self: flex-end;
+}
+
+/* ######## Section - Three END ######## */
