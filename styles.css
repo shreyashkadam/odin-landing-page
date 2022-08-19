@@ -43,11 +43,14 @@ ul {
     margin: 0;
 }
 
-li a {
+a {
     text-decoration: none;
-    color: #e5e7eb;
     font-size: 18px;
     font-weight: 500;
+}
+
+li a{
+    color: #e5e7eb;
 }
 
 /* ######## Hero Part ######## */
@@ -96,12 +99,12 @@ li a {
     font-weight: 500;
     color: #f9f8fa;
     font-size: 18px;
-}
-
-button {
     padding: 8px 32px;
     border-radius: 8px;
-    font-family: 'Roboto', sans-serif;
+}
+
+.sign-up-button a{
+    color: #f9f8fa;
 }
 
 /* ######## Section - One END ######## */
@@ -182,3 +185,55 @@ button {
 }
 
 /* ######## Section - Three END ######## */
+
+/* ######## Section - Four ######## */
+
+.section-four{
+    padding: 100px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1460px;
+    border-radius: 10px;
+    background-color: #3B82f6;
+    padding: 5% 11%;
+    color: white;    
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-text-main{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.banner-text-secondary{
+    font-size: 20px;
+}
+
+.banner-button{
+    font-weight: 500;
+    font-size: 18px;
+    border: 3px solid white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: white;
+}
+
+.banner-button a{
+    color: white;
+}
+
+/* ######## Section - Four END ######## */
+
+/* ######## Section - Five ######## */
