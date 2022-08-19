@@ -237,3 +237,14 @@ li a{
 /* ######## Section - Four END ######## */
 
 /* ######## Section - Five ######## */
+
+.section-five{
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
